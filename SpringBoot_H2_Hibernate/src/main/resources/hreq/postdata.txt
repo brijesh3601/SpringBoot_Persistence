@@ -1,0 +1,3 @@
+curl -d '{"id" : 3 , "firstName" : "Brijesh", "lastName":"Kachalia", "email":"bk@yahoo.com"}' -H "Content-Type: application/json" -X POST http://localhost:8080/customers
+
+curl -d "@data.json" -H "Content-Type: application/json" -X POST http://localhost:8080/customers
